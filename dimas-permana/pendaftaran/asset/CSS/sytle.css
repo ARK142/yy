@@ -1,0 +1,87 @@
+body{
+    font-family: "Monstserrat", 'segoe UI', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+#topbar{
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.top-contact, .sosmed{
+    list-style: none;
+    padding: 0;
+}
+#topbar li{
+    display: inline-block;
+}
+#topbar li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+#topbar li a i{
+    color: #f2c808;
+    margin-right: 5px;
+}
+#topbar .sosmed li a{
+    padding: 0 10px;
+    color: #fff;
+}
+/*css header*/
+header{
+    padding: 30px 0;
+}
+.brand{
+    display: flex;
+    height: 100;
+}
+.pembungkus-searchbox{
+    display: flex;
+    align-items: center;
+}
+.searchbox{
+    width: 100%;
+}
+.btn.btn-utama{
+    background-color: #15477A;
+    color: #f2c808;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*css menu*/
+.navbar {
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    border-bottom: 5px solid #f2c808;
+}
+.bg-biru{
+    background-color: #15477A !important; 
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link .active,
+.navbar-dark .navbar-nav .nav-link .show,
+.navbar-dark .navbar-nav .show>.nav-link{
+    background-color: #f2c808;
+    color: #fff;
+}
+.active{
+    background-color: #f2c808;
+    color: #15477A;
+}
+li.nav-item.active a{
+    color: #15477A;
+}
+.navbar-dark .navbar-nav .nav-link{
+    padding: 15px 20px;
+    display: inline-block;
+}
